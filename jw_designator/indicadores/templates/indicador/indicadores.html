@@ -1,0 +1,189 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!-- Panels -->
+{% load static %}
+
+<div class="container">
+		<div class="panel panel-default">
+			<div class="panel-heading print"> Designações Congregacionais <i onclick="print()" class="fa fa-print fa-2x print" aria-hidden="true"></i> </div>
+			<div class="panel-body">
+
+				<div class="div_table">
+
+					<table class="desg_ti tab_test td th">
+						<tr>
+							<th class="centerth"><img src="{% static 'img/jw_ico.JPG' %}" alt="Smiley face" height="80" width="80"></th>
+							<th class="centerth">Designações Congregacionais</th>
+							<th class="centerth"><img src="{% static 'img/jw_ico.JPG' %}" alt="Smiley face" height="80" width="80"></th>
+						</tr>
+					</table>
+
+					<table class="desg_sub">
+						<tr>
+							<th width="20%" class="centerth" > Data</th>
+							<th width="10%"></th>
+							<th width="70%" class="centerth">Nomes</th>
+						</tr>
+					</table>
+
+					<table>
+
+						<tr>
+							<th rowspan="3" width="20%" ><input type="date" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th width="24%" class="centerth">Indicadores:</th>
+							<th>{{form.indicadores}}</th>
+							<th>{{form.indicadores}}</th>
+						</tr>
+
+						<tr>
+							<td width="10%" class="centerth">Mic. Volantes:</td>
+							<td width="25%">{{form.mic_vol}}</td>
+							<td width="25%">{{form.mic_vol}}</td>
+						</tr>
+
+						<tr>
+							<td width="10%" class="centerth">Som/Palco:</td>
+							<td><input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon1"></td>
+							<td>{{form.mic_vol}}</td>
+						</tr>
+
+						<tr>
+							<th rowspan="3" width="20%" ><input type="date" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th width="24%" class="centerth">Indicadores:</th>
+							<th>{{form.indicadores}}</th>
+							<th>{{form.indicadores}}</th>
+						</tr>
+
+						<tr>
+							<td width="10%" class="centerth">Mic. Volantes:</td>
+							<td>{{form.mic_vol}}</td>
+							<td>{{form.mic_vol}}</td>
+						</tr>
+
+						<tr>
+							<td width="10%" class="centerth">Som/Palco:</td>
+							<td><input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon1"></td>
+							<td>{{form.mic_vol}}</td>
+						</tr>
+						<tr>
+							<th rowspan="3" width="20%" ><input type="date" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th width="24%" class="centerth">Indicadores:</th>
+							<th>{{form.indicadores}}</th>
+							<th>{{form.indicadores}}</th>
+						</tr>
+
+						<tr>
+							<td width="10%" class="centerth">Mic. Volantes:</td>
+							<td>{{form.mic_vol}}</td>
+							<td>{{form.mic_vol}}</td>
+						</tr>
+
+						<tr>
+							<td width="10%" class="centerth">Som/Palco:</td>
+							<td><input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon1"></td>
+							<td>{{form.mic_vol}}</td>
+						</tr>
+						<tr>
+							<th rowspan="3" width="20%" ><input type="date" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th width="24%" class="centerth">Indicadores:</th>
+							<th>{{form.indicadores}}</th>
+							<th>{{form.indicadores}}</th>
+						</tr>
+
+						<tr>
+							<td width="10%" class="centerth">Mic. Volantes:</td>
+							<td>{{form.mic_vol}}</td>
+							<td>{{form.mic_vol}}</td>
+						</tr>
+
+						<tr>
+							<td width="10%" class="centerth">Som/Palco:</td>
+							<td><input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon1"></td>
+							<td>{{form.mic_vol}}</td>
+						</tr>
+						<tr>
+							<th rowspan="3" width="20%" ><input type="date" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th width="24%" class="centerth">Indicadores:</th>
+							<th>{{form.indicadores}}</th>
+							<th>{{form.indicadores}}</th>
+						</tr>
+
+						<tr>
+							<td width="10%" class="centerth">Mic. Volantes:</td>
+							<td>{{form.mic_vol}}</td>
+							<td>{{form.mic_vol}}</td>
+						</tr>
+
+						<tr>
+							<td width="10%" class="centerth">Som/Palco:</td>
+							<td><input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon1"></td>
+							<td>{{form.mic_vol}}</td>
+						</tr>
+						<tr>
+							<th rowspan="3" width="20%" ><input type="date" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th width="24%" class="centerth">Indicadores:</th>
+							<th>{{form.indicadores}}</th>
+							<th>{{form.indicadores}}</th>
+						</tr>
+
+						<tr>
+							<td width="10%" class="centerth">Mic. Volantes:</td>
+							<td>{{form.mic_vol}}</td>
+							<td>{{form.mic_vol}}</td>
+						</tr>
+
+						<tr>
+							<td width="10%" class="centerth">Som/Palco:</td>
+							<td><input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon1"></td>
+							<td>{{form.mic_vol}}</td>
+						</tr>
+						<tr>
+							<th rowspan="3" width="20%" ><input type="date" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th width="24%" class="centerth">Indicadores:</th>
+							<th>{{form.indicadores}}</th>
+							<th>{{form.indicadores}}</th>
+						</tr>
+
+						<tr>
+							<td width="10%" class="centerth">Mic. Volantes:</td>
+							<td>{{form.mic_vol}}</td>
+							<td>{{form.mic_vol}}</td>
+						</tr>
+
+						<tr>
+							<td width="10%" class="centerth">Som/Palco:</td>
+							<td><input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon1"></td>
+							<td>{{form.mic_vol}}</td>
+						</tr>
+						<tr>
+							<th rowspan="3" width="20%" ><input type="date" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th width="24%" class="centerth">Indicadores:</th>
+							<th>{{form.indicadores}}</th>
+							<th>{{form.indicadores}}</th>
+						</tr>
+
+						<tr>
+							<td width="10%" class="centerth">Mic. Volantes:</td>
+							<td>{{form.mic_vol}}</td>
+							<td>{{form.mic_vol}}</td>
+						</tr>
+
+						<tr>
+							<td width="10%" class="centerth">Som/Palco:</td>
+							<td><input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon1"></td>
+							<td>{{form.mic_vol}}</td>
+						</tr>
+					</table>
+
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+<!-- End Panels -->
+
+{% endblock content %}

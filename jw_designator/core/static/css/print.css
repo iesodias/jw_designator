@@ -1,0 +1,56 @@
+@media print {
+    .print{
+        display: none;
+        }    
+
+    .panel-default {
+        border-color: #fff;
+}
+
+.div_title {
+    background-color: #716565 !important;
+    color: white !important;
+
+}
+
+.div_title1 {
+    background-color: #bd944c !important;
+    color: white !important;
+}
+
+.div_title2{
+    background-color: #a03535 !important;
+    color: white !important;
+}
+
+.bordabaixo{
+    background-color: #eee !important;
+}
+
+
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border: none; /* If you want to remove the border as well */
+        background: none;
+    }
+
+    @page { margin: 0; }
+
+    body { 
+        margin: 0px; 
+        margin-top:0px;
+        margin-bottom: 0px;
+        }
+
+}
+
+
+
+
+
+
+
+
+

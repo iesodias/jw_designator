@@ -1,0 +1,254 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+	<div class="panel panel-default">
+		<div class="panel-heading print"> Programação para a reunião Vida e Ministério <i onclick="print()" class="fa fa-print fa-2x print" aria-hidden="true"></i> </div>
+		<div class="panel-body">
+                <!-- Tabela Cabeçalho -->
+                <div class="div_table">
+
+                <table class="table1">
+                    <tr class="bordabaixo">
+                        <td colspan="3" ><h2 class="titulo tr_tes">Programação da Primeira Semana</h2></td>
+                    </tr>
+                    <tr>
+                        <td width=100% ><div class="input-group input-group-lg">
+                            <span class="input-group-addon" id="sizing-addon1">Congregação:</span>
+                            <input type="text" class="form-control" placeholder="Digite o nome da Congregação" aria-describedby="sizing-addon1">
+                        </div></td>
+                        <td></td>
+                        <td><div class="input-group input-group-lg">
+                            <span class="input-group-addon" id="sizing-addon1">Semana:</span>
+                            <input type="date" class="form-control" placeholder="Digite o nome da Congregação" aria-describedby="sizing-addon1">
+                        </div></td>
+                    </tr>
+                </table>
+
+                <!-- Fim da Tabela Cabeçalho -->
+
+                <!-- Tabela Designações Iniciais -->
+
+                <table class="table">
+                    <tr>
+                        <th colspan="3"><p class="cantico">Oração:</p></th>
+                        <th width=20% >{{form.oracao}}</th>
+                    </tr>
+                </table>
+
+                <table class="table">
+
+                    <tr>
+                        <th>Presidente:</th>
+                        <th>{{form.presidente}}</th>
+                        <th></th>
+                        <th><div class="input-group input-group">
+                            <span class="input-group-addon" id="sizing-addon1">Leitura Semanal:</span>
+                            <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon1">
+                            <span class="border-bottom-0"></span>
+                        </div></th>
+                    </tr>
+                    <tr>
+                        <th>Indicadores:</th>
+                        <th width=20% >{{form.indicadores}}</th>
+                        <th width=20% >{{form.indicadores}}</th>
+                        <!-- <th><input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon1"></th> -->
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>Microfones Volantes:</th>
+                        <th>{{form.mic_vol}}</th>
+                        <th>{{form.mic_vol}}</th>
+                        <!-- <th><input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon1"></th>
+                        <th><input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon1"></th> -->
+                        <th></th>
+                    </tr>
+
+                </table>
+
+                <table class="table">
+                    <tr>
+                        <th colspan="3">Comentarios Iniciais (3min)</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+
+                </table>
+
+                <!-- Fim da Tabela Designações Iniciais -->
+
+                <!-- Tabela Tesouros da palavra de deus -->
+                <div class="div_title">TESOUROS DA PALAVRA DE DEUS</div>
+                
+                <table class="table">
+
+                    <tr>
+                        <th width=30% >{{form.tesouros}}</th>
+                        <th colspan="2"><input type="text" class="form-control" placeholder="Digite aqui o nome da parte" aria-describedby="sizing-addon1"></th>
+                    </tr>
+
+                    <tr>
+                        <th>{{form.tesouros}}</th>
+                        <th colspan="2"><input type="text" class="form-control" placeholder="Digite aqui o nome da parte" aria-describedby="sizing-addon1"></th>
+                    </tr>
+
+                    <tr>
+                        <th>Estudante: </th>
+                        <th width=30% >{{form.escola}}</th>
+                        <th>Leitura da Bíblia (4min ou menos)</th>
+                    </tr>
+                </table>
+
+                <!-- Fim da Tabela Tesouros da palavra de deus -->
+
+                <!-- Tabela Faça seu melhor no ministério -->
+
+                <div class="div_title1">FAÇA SEU MELHOR NO MINISTÉRIO</div>
+                
+                <table class="table">
+
+                    <tr>
+                        <th></th>
+                        <th colspan="2" >Salão Principal</th>
+                        <th colspan="2" >Sala B</th>
+                    </tr>
+
+                    <tr>
+                        <th width=12%>Primeira Visita:</th>
+                        <th >{{form.escola}}</th>
+                        <th >{{form.escola}}</th>
+                        <th >{{form.escola}}</th>
+                        <th >{{form.escola}}</th>
+                    </tr>
+
+                    <tr>
+                        <th>Revisita:</th>
+                        <th >{{form.escola}}</th>
+                        <th>{{form.escola}}</th>
+                        <th >{{form.escola}}</th>
+                        <th >{{form.escola}}</th>
+
+                    </tr>
+
+                    <tr>
+                        <th>Estudo Bíblico:</th>
+                        <th>{{form.escola}}</th>
+                        <th>{{form.escola}}</th>
+                        <th >{{form.escola}}</th>
+                        <th >{{form.escola}}</th>
+                    </tr>
+
+                </table>
+
+                <!-- Fim da Tabela Faça seu melhor no ministério -->
+
+                <!-- Tabela Nossa vida cristã -->
+
+                <div class="div_title2">NOSSA VIDA CRISTÃ</div>
+
+                <table class="table">
+
+                    <tr>
+                        <th width=25% >Primeira Parte:</th>
+                        <th width=45% ><input type="text" class="form-control" placeholder="Digite aqui o nome da parte" aria-describedby="sizing-addon1"></th>
+                        <th>{{form.nv_crista}}</th>
+                    </tr>
+
+                    <tr>
+                        <th>Segunda Parte:</th>
+                        <th><input type="text" class="form-control" placeholder="Digite aqui o nome da parte" aria-describedby="sizing-addon1"></th>
+                        <th>{{form.nv_crista}}</th>
+                    </tr>
+
+                    <tr>
+                        <th>Estudo Bíblico Dirigente/Leitor:</th>
+                        <th>{{form.est_biblico}}</th>
+                        <th>{{form.leitura}}</th>
+                    </tr>
+
+                </table>
+
+                <table class="table">
+                    <tr>
+                        <th colspan="3"><p class="cantico">Oração:</p></th>
+                        <th width=20% >{{form.oracao}}</th>
+                    </tr>
+                </table>
+                <!-- Fim da Nossa vida cristã -->
+
+                <!-- Reunião de final de semana inicio -->
+                <!-- Tabela Cabeçalho -->
+
+                <table class="table2">
+                    <tr class="bordabaixo">
+                        <td colspan="3" ><h2 class="titulo tr_tes">Reunião de Final de Semana</h2></td>
+                    </tr>
+                    <tr>
+                        <td width=100% ><div class="input-group input-group-lg">
+                            </td>
+                        <td></td>
+                        <td><div class="input-group input-group-lg">
+                            <span class="input-group-addon" id="sizing-addon1">Semana:</span>
+                            <input type="date" class="form-control" placeholder="Digite o nome da Congregação" aria-describedby="sizing-addon1">
+                        </div></td>
+                    </tr>
+                </table>
+
+                 <table class="table">
+
+                    <tr>
+                        <th>Presidente:</th>
+                        <th>{{form.presidente}}</th>
+                        <th></th>
+                        <th>Tema Discurso Público:</th>
+                        <th><input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon1">
+                            <span class="border-bottom-0"></th>
+                    </tr>
+                    <tr>
+                        <th>Indicadores:</th>
+                        <th width=20% >{{form.indicadores}}</th>
+                        <th width=20% >{{form.indicadores}}</th>
+                        <th>Orador:</th>
+                        <th><input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon1">
+                            <span class="border-bottom-0"></th>
+                    </tr>
+                    <tr>
+                        <th>Microfones Volantes:</th>
+                        <th>{{form.mic_vol}}</th>
+                        <th>{{form.mic_vol}}</th>
+                        <th>Dirigente de A Sentinela:</th>
+                        <th>{{form.presidente}}</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th>Leitor de A Sentinela:</th>
+                        <th>{{form.leitura}}</th>
+                    </tr>
+
+                </table>
+
+                </div>
+
+                <!-- Fim da Tabela Cabeçalho -->
+                <!-- Reunião de final de semana fim -->
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- End Panels -->
+
+
+
+		</div>
+	</div>
+</div>
+
+<!-- End Panels -->
+
+{% endblock content %}

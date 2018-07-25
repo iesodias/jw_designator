@@ -1,0 +1,1 @@
+web: gunicorn jw_designator.wsgi --log-file -

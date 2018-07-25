@@ -1,0 +1,10 @@
+.vscode
+.env
+.jw_designator
+.tj_designator
+*pyc
+*.sqlite3
+__pycache__
+staticfiles
+*.ipynb
+.ipynb_*

@@ -1,0 +1,308 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+
+<div class="container">
+		<div class="panel panel-default">
+			<div class="panel-heading print"> Testemunho Público <i onclick="print()" class="fa fa-print fa-2x print" aria-hidden="true"></i> </div>
+			<div class="panel-body">
+
+				<div class="div_table">
+
+					<table class="desg_ti tab_test td th">
+						<tr>
+							<th class="centerth"><img src="{% static 'img/jw_ico.JPG' %}" alt="Smiley face" height="80" width="80"></th>
+							<th class="centerth">Testemunho Público</th>
+							<th class="centerth"><img src="{% static 'img/jw_ico.JPG' %}" alt="Smiley face" height="80" width="80"></th>
+						</tr>
+					</table>
+
+					<table class="desg_sub">
+						<tr>
+							<th width="2%" class="centerth"></th>
+                            <th width="15%" class="centerth" >Dia/Data</th>
+							<th width="6%" class="centerth"></th>
+                            <th width="30%" class="centerth">Nomes</th>
+                            <th width="7%" class="centerth"></th>
+                            <th width="10%" class="centerth">Horario</th>
+                            <th width="13%" class="centerth"></th>
+                            <th width="15%" class="centerth">Local</th>
+                            <th width="2%" class="centerth"></th>
+						</tr>
+					</table>
+
+					<table>
+
+						<tr>
+							<th rowspan="3" width="5%" ><input type="text" placeholder="Dia/Data" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th>{{form.carrinho}}</th>
+							<th>{{form.carrinho}}</th>
+                            <th>{{form.periodo}}</th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+						<tr>
+							<td width="5%">{{form.carrinho}}</td>
+							<td width="5%">{{form.carrinho}}</td>
+                            <td width="3%">{{form.periodo}}</td>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+					</table>
+
+                    <table>
+
+						<tr>
+							<th rowspan="3" width="5%" ><input type="text" placeholder="Dia/Data" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th>{{form.carrinho}}</th>
+							<th>{{form.carrinho}}</th>
+                            <th>{{form.periodo}}</th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+						<tr>
+							<td width="5%">{{form.carrinho}}</td>
+							<td width="5%">{{form.carrinho}}</td>
+                            <td width="3%">{{form.periodo}}</td>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+					</table>
+
+                    <table>
+
+						<tr>
+							<th rowspan="3" width="5%" ><input type="text" placeholder="Dia/Data" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th>{{form.carrinho}}</th>
+							<th>{{form.carrinho}}</th>
+                            <th>{{form.periodo}}</th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+						<tr>
+							<td width="5%">{{form.carrinho}}</td>
+							<td width="5%">{{form.carrinho}}</td>
+                            <td width="3%">{{form.periodo}}</td>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+					</table>
+
+                    <table>
+
+						<tr>
+							<th rowspan="3" width="5%" ><input type="text" placeholder="Dia/Data" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th>{{form.carrinho}}</th>
+							<th>{{form.carrinho}}</th>
+                            <th>{{form.periodo}}</th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+						<tr>
+							<td width="5%">{{form.carrinho}}</td>
+							<td width="5%">{{form.carrinho}}</td>
+                            <td width="3%">{{form.periodo}}</td>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+					</table>
+
+                    <table>
+
+						<tr>
+							<th rowspan="3" width="5%" ><input type="text" placeholder="Dia/Data" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th>{{form.carrinho}}</th>
+							<th>{{form.carrinho}}</th>
+                            <th>{{form.periodo}}</th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+						<tr>
+							<td width="5%">{{form.carrinho}}</td>
+							<td width="5%">{{form.carrinho}}</td>
+                            <td width="3%">{{form.periodo}}</td>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+					</table>
+
+                    <table>
+
+						<tr>
+							<th rowspan="3" width="5%" ><input type="text" placeholder="Dia/Data" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th>{{form.carrinho}}</th>
+							<th>{{form.carrinho}}</th>
+                            <th>{{form.periodo}}</th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+						<tr>
+							<td width="5%">{{form.carrinho}}</td>
+							<td width="5%">{{form.carrinho}}</td>
+                            <td width="3%">{{form.periodo}}</td>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+					</table>
+
+                    <table>
+
+						<tr>
+							<th rowspan="3" width="5%" ><input type="text" placeholder="Dia/Data" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th>{{form.carrinho}}</th>
+							<th>{{form.carrinho}}</th>
+                            <th>{{form.periodo}}</th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+						<tr>
+							<td width="5%">{{form.carrinho}}</td>
+							<td width="5%">{{form.carrinho}}</td>
+                            <td width="3%">{{form.periodo}}</td>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+					</table>
+
+                    <table>
+
+						<tr>
+							<th rowspan="3" width="5%" ><input type="text" placeholder="Dia/Data" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th>{{form.carrinho}}</th>
+							<th>{{form.carrinho}}</th>
+                            <th>{{form.periodo}}</th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+						<tr>
+							<td width="5%">{{form.carrinho}}</td>
+							<td width="5%">{{form.carrinho}}</td>
+                            <td width="3%">{{form.periodo}}</td>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+					</table>
+
+                    <table>
+
+						<tr>
+							<th rowspan="3" width="5%" ><input type="text" placeholder="Dia/Data" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th>{{form.carrinho}}</th>
+							<th>{{form.carrinho}}</th>
+                            <th>{{form.periodo}}</th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+						<tr>
+							<td width="5%">{{form.carrinho}}</td>
+							<td width="5%">{{form.carrinho}}</td>
+                            <td width="3%">{{form.periodo}}</td>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+					</table>
+
+                    <table>
+
+						<tr>
+							<th rowspan="3" width="5%" ><input type="text" placeholder="Dia/Data" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th>{{form.carrinho}}</th>
+							<th>{{form.carrinho}}</th>
+                            <th>{{form.periodo}}</th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+						<tr>
+							<td width="5%">{{form.carrinho}}</td>
+							<td width="5%">{{form.carrinho}}</td>
+                            <td width="3%">{{form.periodo}}</td>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+					</table>
+
+                    <table>
+
+						<tr>
+							<th rowspan="3" width="5%" ><input type="text" placeholder="Dia/Data" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th>{{form.carrinho}}</th>
+							<th>{{form.carrinho}}</th>
+                            <th>{{form.periodo}}</th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+						<tr>
+							<td width="5%">{{form.carrinho}}</td>
+							<td width="5%">{{form.carrinho}}</td>
+                            <td width="3%">{{form.periodo}}</td>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+					</table>
+
+                    <table>
+
+						<tr>
+							<th rowspan="3" width="5%" ><input type="text" placeholder="Dia/Data" class="form-control" aria-describedby="sizing-addon1"></th>
+							<th>{{form.carrinho}}</th>
+							<th>{{form.carrinho}}</th>
+                            <th>{{form.periodo}}</th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+						<tr>
+							<td width="5%">{{form.carrinho}}</td>
+							<td width="5%">{{form.carrinho}}</td>
+                            <td width="3%">{{form.periodo}}</td>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Horário" aria-describedby="sizing-addon1"></th>
+                            <th width=5% ><input type="text" class="form-control" placeholder="Digite aqui um Local" aria-describedby="sizing-addon1"></th>
+						</tr>
+
+					</table>
+
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+<!-- End Panels -->
+
+
+
+	<!-- End Panels -->
+
+
+
+		</div>
+	</div>
+</div>
+
+<!-- End Panels -->
+
+{% endblock content %}

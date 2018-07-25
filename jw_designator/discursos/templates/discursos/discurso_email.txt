@@ -1,0 +1,31 @@
+Congregação Frimisa/Santa Luzia,
+
+Ref: Solicitação de Oradores
+
+Prezado Irmão:
+
+Como parte importante de nossa adoração, os discursos públicos servem para fortalecer e estabilizar as congregações aumentando nosso amor ao grandioso
+Deus Jeová.
+Para que tais benefícios estejam disponiveis a nossos irmãos, temos a grata satisfação de estender esse convite para proferimento do segunte discurso publico
+em nossa congregação, no seguintes dados informados pelo irmão:
+
+Nome: {{ nome }}
+Congregação: {{ congregacao }}
+Tema: {{ tema }}
+Dia: {{ dia }}
+Data: {{ data }}
+Horário: {{ horario }}
+Ajuda Financeira: {{ custo }}
+
+Caso seja necessário, temos o prazer de lhe hospedar. Além disso, colocamos à disposição de cobrir as despesas da sua viagem. (Conforme carta 25/05/2011
+Ref: Oradores Públicos)
+
+Para mais informações, favor contatar abaixo:
+
+Agradecemos a disponibilidade do irmão.
+
+Qualquer duvidas estamos a disposição.
+
+Obrigado,
+
+Cong. Frimisa

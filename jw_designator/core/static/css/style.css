@@ -1,0 +1,508 @@
+ /*header {
+ 	background-image: url(../img/jwsistemas_welcome_1024.jpg);
+ 	background-size: cover;
+ 	background-position: top center;
+ 	height: 100%;
+
+ }*/
+
+html, body {
+	height: 100%;
+    background-image: linear-gradient(to right, white, silver);
+}
+
+/*
+*Ajustes NAVBAR
+*/
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 0px solid transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default {
+	background-color: #4373a7;
+	border-color: #428bca;
+	border-radius:0 ;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #23568c;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color:#23568c;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+/*
+*Fim dos ajustes NAVBAR
+*/
+
+/*
+*Ajustes do Painel
+*/
+
+.panel {
+	margin-top: 60px;
+}
+
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #333;
+    border-color: #4373a7;
+}
+
+
+/*
+*Fim dos ajustes do Painel
+*/
+
+
+/*
+*Ajustes do form
+*/
+
+form {
+    display: block;
+    margin-top: 1em;
+}
+
+.form-control {
+    position: center;
+    display: block;
+    width: 50%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-control-1 {
+    position: center;
+    display: block;
+    width: 25%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-control-2 {
+    position: center;
+    display: block;
+    width: 10%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+
+.center_div{
+    margin: 0 auto;
+    width:180% /* value of your choice which suits your alignment */
+}
+
+/*
+*Fim dos ajustes do form
+*/
+
+
+footer {
+	background-color: #333;
+	color:#FFF;
+	padding:20px;
+	position: relative;
+	clear:both;
+}
+
+
+.form-horizontal .checkbox, .form-horizontal .checkbox-inline, .form-horizontal .radio, .form-horizontal .radio-inline {
+    padding-top: 7px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+/*Inicio ajustes fonts*/
+
+.fa-2x {
+    font-size: 2em;
+    float: right;
+}
+/*Fim ajustes fonts*/
+
+
+/*
+Inicio dos ajustes do formulario quadro de anuncios
+*/
+
+.tg  {border-collapse:collapse;
+    border-spacing:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tg td{font-family:Arial, 
+    sans-serif;font-size:14px;
+    padding:10px 50px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+}
+
+.tg th{font-family:Arial, 
+    sans-serif;font-size:14px;
+    font-weight:normal;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+}
+
+.tg .tg-l0f3{background-color:#67fd9a;
+    text-align:center;
+    vertical-align:top
+}
+
+.tg .tg-jwtr{background-color:#38fff8;
+    text-align:center;
+    vertical-align:top
+}
+
+.tg .tg-9hbo{font-weight:bold;
+    vertical-align:top
+}
+
+.tg .tg-yw4l{vertical-align:top
+}
+
+.tg .tg-r61r{background-color:#67fd9a;
+    vertical-align:top
+}
+
+/*
+Fim dos ajustes do formulario quadro de anuncios
+*/
+
+/*
+Inicio dos ajustes do formulario quadro de anuncios
+*/
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0px;
+}
+
+.table-bordered {
+    border: 2px solid rgba(255,255,255,.15);
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    border-top: 1px solid rgba(255,255,255,.15);
+    /*border-bottom: 2px solid black;*/
+}
+
+.titulo{
+    float: right;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.cantico{
+    float: right;
+    margin-top:5px
+}
+
+.salaoprin{
+    padding-left: 117px;
+}
+
+
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: rgba(255,255,255,.15);
+    border: 0px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-control {
+    position: center;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: rgba(255,255,255,.15);
+    background-image: none;
+    border: 0px solid rgba(255,255,255,.1);
+    border-radius: 0px;
+
+}
+
+
+.float-r{
+    float:right;
+    margin: 0 0 0px;
+
+}
+
+.div-p{
+    float: right;
+}
+
+/*
+Fim dos ajustes do formulario quadro de anuncios
+*/
+
+/* Bordas testes */
+.table1 {
+    border-bottom: 3px solid #777;
+    padding: 2px 10px 2px 10px;
+}
+
+.table2 {
+    border-top: 3px solid #777;
+    padding: 2px 10px 2px 10px;
+}
+
+.div_title {
+    background-color: #716565;
+    display:inline-block;
+    width: 100%;
+    max-width: 100%;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight:bold;
+    font-size: 17px;
+}
+
+.div_title1 {
+    background-color: #bd944c;
+    display:inline-block;
+    width: 100%;
+    max-width: 100%;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight:bold;
+    font-size: 17px;
+}
+
+.div_title2 {
+    background-color: #a03535;
+    display:inline-block;
+    width: 100%;
+    max-width: 100%;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight:bold;
+    font-size: 17px;
+}
+
+.fds {
+    display:inline-block;
+    width: 100%;
+    max-width: 100%;
+    color: black;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight:bold;
+    font-size: 24px;
+    border-top-width: 2px;
+    /*border-bottom-color: black;*/
+    border-top-color: black;
+}
+
+/* Inicio Designações Congregacionais */
+
+.div_table{
+    border-width: medium;
+    border-style: solid;
+    border-color: #777;
+
+}
+
+.desg_ti {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 30px;
+    border-bottom: 3px solid #333;
+}
+
+    
+td, th {
+    /*text-align: center;*/
+    padding: 8px;
+}
+
+.desg_sub {
+    width: 100%;
+    border-bottom: 3px solid #333;
+}
+
+.camp_data{
+    align-content: center;
+}
+
+.centerth{
+    text-align: center;
+}
+
+
+/* Fim Designações Congregacionais*/
+
+/*Inicio Botoes Reunião Vida e Ministério*/
+
+.divbotoes{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.buttons{
+    border-bottom-width: 1px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+/*Fim Botoes Reunião Vida e Ministério*/
+
+/*Início Tela de Login*/
+.col-xs-4 {
+    width: 33.33333333%;
+    float: left;
+    left: 33%;
+}
+
+.logindiv{
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.buttons1{
+    margin-top: 40px;
+}
+
+/*Fim Tela de Login*/
+
+/*Inicio Messagem cadastro*/
+
+.containermessage{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+}
+
+.alert{
+    float: initial;
+    padding: 0 15px;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+
+}
+
+.alert p {
+    padding: 7px 0 7px;
+}
+
+.alert.success{
+    text-align: center;
+    color:#3c763d;
+    background-color: #dff0d8;
+    border-color: #d0e9c6;
+}
+/*Fim Menssagem cadastro*/
+
+/*Inicio tela de logout*/
+
+.h1tes{
+    text-align: center;
+}
+
+.h2tes{
+    text-align: center;
+}
+
+/*Fim tela de logout*/
